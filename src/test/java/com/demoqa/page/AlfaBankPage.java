@@ -10,7 +10,7 @@ public class AlfaBankPage {
     private SelenideElement
     tabSearch = $(".aPwyr > svg"),
     inputSearch = $(".c3pCr"),
-    veryfyResult = $(".b-serp-item:nth-child(1) .b-serp-item__title yass-span"),
+    verifyCredit = $(".b-serp-item:nth-child(1) .b-serp-item__title yass-span"),
     verifyInvest = $(".b-serp-item:nth-child(3) .b-serp-item__title yass-span"),
     tabVclad =  $(".r1B_-:nth-child(2) > span > .a2_r6"),
     alfaAccountBtn = $("#alfa-account .k30tm > .a1jIK .a1cAc"),
@@ -36,7 +36,7 @@ public class AlfaBankPage {
         return this;
     }
     public AlfaBankPage verifyResults(String value) {
-        veryfyResult.shouldHave(text(value));
+        verifyCredit.shouldHave(text(value));
         return this;
     }
     public AlfaBankPage verifyResultsInvest(String value) {
