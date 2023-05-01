@@ -11,6 +11,7 @@ public class AlfaBankPage {
     tabSearch = $(".aPwyr > svg"),
     inputSearch = $(".c3pCr"),
     veryfyResult = $(".b-serp-item:nth-child(1) .b-serp-item__title yass-span"),
+    verifyInvest = $(".b-serp-item:nth-child(3) .b-serp-item__title yass-span"),
     tabVclad =  $(".r1B_-:nth-child(2) > span > .a2_r6"),
     alfaAccountBtn = $("#alfa-account .k30tm > .a1jIK .a1cAc"),
     textAlphaAccount = $(".w2rNW"),
@@ -38,6 +39,11 @@ public class AlfaBankPage {
         veryfyResult.shouldHave(text(value));
         return this;
     }
+    public AlfaBankPage verifyResultsInvest(String value) {
+        verifyInvest.shouldHave(text(value));
+        return this;
+    }
+
 
     public AlfaBankPage setAlphaAccount() {
         tabVclad.click();

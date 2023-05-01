@@ -38,7 +38,7 @@ public class AlfaBankGetMoneyMortgageTest extends TestBase {
         });
 
         step("Verify results text", () -> {
-            alfaBankPage.verifyResults("Скачать приложение Альфа-Инвестиции на телефон, iOS и Android");
+            alfaBankPage.verifyResultsInvest("Инвестиции: что это, как начать инвестировать на бирже");
         });
     }
 
