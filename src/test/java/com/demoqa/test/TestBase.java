@@ -28,7 +28,7 @@ public class TestBase {
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("selenoid:options", new HashMap<String, Object>() {{
             put("enableVNC", true);
-            put("enableVideo", false);
+            put("enableVideo", true);
         }});
 
         Configuration.browserCapabilities = capabilities;
