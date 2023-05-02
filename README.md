@@ -2,10 +2,10 @@
 ## :pushpin: Содержание:
 
 - [Использованный стек технологий](#computer-использованный-стек-технологий)
-- [Запуск тестов из терминала](#-запуск-тестов-из-терминала)
-- [Сборка в Jenkins](#-сборка-в-jenkins)
-- [Пример Allure-отчета](#-пример-allure-отчета)
-- [Уведомления в Telegram с использованием бота](#-уведомления-в-telegram-с-использованием-бота)
+- [Запуск тестов из терминала](#arrow_forward-запуск-тестов-из-терминала)
+- [Сборка в Jenkins](#сборка-в-jenkins)
+- [Пример Allure-отчета](#пример-allure-отчета)
+- [Уведомления в Telegram с использованием бота](#уведомления-в-telegram-с-использованием-бота)
 - [Видео примера запуска тестов в Selenoid](#-видео-примера-запуска-теста-в-selenoid)
 
 ## :computer: Использованный стек технологий
@@ -106,7 +106,7 @@ main -DremoteUrl=${SELENOID_URL}
 <img title="Jira Task" src="media/screens/jiraTask.png">
 </p>
 
-### <img width="4%" style="vertical-align:middle" title="Telegram" src="media/logo/Telegram.svg"> Уведомления в Telegram с использованием бота
+## <img width="4%" style="vertical-align:middle" title="Telegram" src="media/logo/Telegram.svg"> Уведомления в Telegram с использованием бота
 
 После завершения сборки, бот созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с результатом.
 
@@ -114,7 +114,7 @@ main -DremoteUrl=${SELENOID_URL}
 <img width="70%" title="Telegram Notifications" src="media/screens/notification.png">
 </p>
 
-### <img width="4%" style="vertical-align:middle" title="Selenoid" src="media/logo/Selenoid.svg"> Видео примера запуска тестов в Selenoid
+## Видео примера запуска тестов в Selenoid
 
 К каждому тесту в отчете прилагается видео прогона.
 <p align="center">
